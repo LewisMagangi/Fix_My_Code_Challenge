@@ -24,6 +24,7 @@ class Square():
         return "{}/{}".format(self.width, self.height)
 
 if __name__ == "__main__":
+    """ Printing the area and perimeter of the square """
 
     s = Square(width=10, height=17)
     print(s)
